@@ -1,0 +1,13 @@
+<h1>{{beer.name}}</h1>
+<h3>Categoria: {{beer.style.category.name}}</h3>
+<h2>Estilo: {{beer.style.name}}</h2>
+<p>Copo: {{beer.glass.name}}</p>
+<p>Porcentagem Alcoólica: {{beer.abv}}</p>
+<p>{{beer.description}}</p>
+<img ng-src="{{beer.labels.large}}" />
+
+<ul ng-show="hops">
+	<li ng-repeat="hop in hops">
+		{{hop.name}}
+	</li>	
+</ul>

@@ -1,0 +1,14 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Categoria da Cerveja</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="categorie in categories">
+      <td>{{categorie.name}}</td>
+      <td><a href="#/beers/{{categorie.id}}" role="button" class="btn btn-default">Visualizar</a></td>
+    </tr>
+  </tbody>
+</table>

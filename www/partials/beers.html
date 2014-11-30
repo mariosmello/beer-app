@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Foto</th>
+      <th>Cerveja</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="beer in beers">
+      <td><img ng-src="{{beer.labels.icon}}" /></td>
+      <td>{{beer.name}}</td>
+      <td><a href="#/beer/{{beer.id}}" role="button" class="btn btn-default">Saiba Mais</a></td>
+    </tr>
+  </tbody>
+</table>

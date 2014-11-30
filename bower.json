@@ -1,0 +1,9 @@
+{
+  "name" : "beer-app",
+  "version": "0.1",
+  "dependencies" : {
+    "angular" : "latest",
+    "angular-route" : "latest",
+    "bootstrap" : "latest"
+  }
+}
